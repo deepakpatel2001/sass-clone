@@ -1,0 +1,27 @@
+@mixin flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin navflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin headingcontent {
+  font-weight: 200;
+  border: none;
+  color: #6b717f;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@mixin paracontent {
+  margin-top: 10px;
+  color: #6b717f;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 24px;
+}
